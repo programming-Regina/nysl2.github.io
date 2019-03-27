@@ -1,0 +1,228 @@
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-position: 50% 0%;
+	font: 100% sans-serif;
+}
+
+.thick, .button, .but1, h1, a, #text-link, footer {
+  	font: bold 100% sans-serif;
+}
+
+h1, .logo, nav, section {
+	position: absolute;	
+	position: fixed;
+}
+
+h1 {
+	width: 100%;
+
+	color: white;
+	background-color: black;
+	font-size: 33px;
+	font-stretch: condensed;
+	text-align: left;
+	margin-top: 25px;
+	padding-left: 115px;
+}
+	
+.logo {
+	display: block;
+	left: 3px;
+	top: 1px;
+}
+
+nav {
+	
+	right: 20px;
+	top: 35px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover, .button:hover { 
+  background-color: Crimson;
+}
+
+.button {	
+	font-size: 16px;
+	padding: 5px;
+	color: white;
+	background-color: DodgerBlue;
+	border: solid;
+	border-color: black;
+	box-shadow: 2px 2px 5px #000;	
+}
+
+.but1 {
+	font-size: 16px;
+	padding: 5px;
+	color: white;
+	border: solid;
+	border-color: black;
+	box-shadow: 2px 2px 5px #000;
+	background-color: black;	
+	cursor: not-allowed;
+}
+
+section {
+	width: 590px;
+	height: 500px;
+	background-color: white;
+	right: 2%;
+	top: 15%;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 2px 2px 5px #000;
+	overflow-y: scroll;
+	text-align: justify;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+h2 {
+	color: white;
+	background-color: DodgerBlue;
+	text-align: center;
+}
+
+h3 {
+	margin-left: 3px;
+}
+
+p {
+	margin-left: 10px;
+	margin-right: 3px;
+	text-align: justify;
+}
+
+#text-link, footer {
+	color: white;
+}
+ 
+#text-link:hover {
+	background-color: transparent;
+	color: Crimson;
+}
+
+footer {
+	display: block;
+	position: fixed;
+	position: absolute;
+	float: left;
+	margin-top: 575px;
+	margin-left: 40px;
+	color: white;
+}
+
+.thick-underlined {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.thick-centered {
+	margin-top: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: square;
+}
+
+table {
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+th, thead {
+	font: bold 100% sans-serif;
+	text-decoration: underline;	
+}
+
+thead {
+	text-decoration: none;	
+}
+
+.centered_cell {
+	width: 20%;
+	text-align: center;
+	vertical-align: top;
+}
+
+.right-align {
+	text-align:right;
+}
+
+left-align {
+	text-align:left;
+	margin: 0px;
+	width: auto;
+}
+
+.centered {
+	text-align: center;
+}
+
+.subm {
+	background-color: DodgerBlue;
+	color: white;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 2px 2px 5px #000;
+	text-align: center;
+	padding: 5px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left: 260px;
+}
+
+input[type="text"] {
+	cursor: auto;	
+	display: inline-block;
+	margin-right: 25px;
+}
+
+label {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+}
+
+.sinmargen {
+	width: auto;
+}
+
+.feedback {
+	border: black 1px solid;
+	border-collapse: collapse;
+	padding: 2px;
+}
+
+iframe {
+	border: black 1px solid;
+	border-collapse: collapse;
+	height: 150px; 
+	width: 300px;
+	float: middle;
+	box-shadow: 2px 2px 5px #000;
+}
+
+.note {
+	font: italic 100% sans-serif;
+	text-decoration: underline;	
+}
+
+.just-text {
+	color: DodgerBlue;	
+}
+
+.just-text:hover {
+	background-color: white;
+	color: Crimson;
+}

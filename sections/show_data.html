@@ -1,0 +1,84 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>NYSL Feedback Sent</title>
+	<link rel="stylesheet" href="../styles/nysl_4.css">
+	</head>
+<body background = "../img/bg_sections2.jpg">
+	<header>
+		<h1>Northside Youth Soccer League</h1>	
+	</header>	
+	
+	<nav>
+			<a href="main.html"  class="button">Home</a>
+			<button class="but1">About NYSL</button>
+			<a href="game_info.html" class="button">Schedule</a>
+			<a href="rules.html" class="button">Rules</a>
+			<a href="registration.html" class="button">Registration</a>
+			<a href="contact.html" class="button">Contact</a>
+		</nav>	
+		<div class= "logo">			
+					<a id = "text-link" href = "../index.html"><img src="../img/nysl_logo.png" width=100 height=100 alt="NYSL Logo"></a>
+			</div>
+		
+<section>
+
+<h2>The following information has been sent as your
+  feedback:</h2>
+
+<table class="feedback">
+  <tr class="feedback">
+    <th class="feedback" align="center">Form Field</th>
+    <th class="feedback" align="center">Field Value</th>
+  </tr>
+
+<script language="javascript">
+var args = location.search.substr(1).split('&');
+for (var i = 0; i < args.length; ++i) {
+  var parts = args[i].split('=');
+  if (parts != null) {
+    var field = parts[0];
+    var value = parts[1];
+    if (value == null) {
+      value = "null"
+    }
+    else {
+      value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+    }
+
+    document.writeln('<tr class="feedback"><td align="center">' + field + '</td>');
+    document.writeln('<td class="feedback" align="center">' + value + '</td></tr>');
+  }
+}
+</script>
+
+<noscript>
+<tr class="feedback"><td class="feedback">
+<p>You need to turn on Javascript in your browser.</p>
+
+<p>In Microsoft Internet Explorer 4 or greater:</p>
+<ul>
+<li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+<li>Click on the "Security" tab.</li>
+<li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+and then click on "Settings...".)</li>
+<li>Under "Active scripting" make sure "Enable" is selected.</li>
+</ul>
+
+<p>In Netscape version 4 or greater:</p>
+<ul>
+<li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+<li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+<li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+<li>Click the <b>OK</b> button.</li>
+</ul>
+
+</td></tr>
+</noscript>
+
+</table>
+</section>
+<footer><p>&copy; 2019 by Regina from Full Stack Team</p></footer>	
+</body>
+</html>
+
