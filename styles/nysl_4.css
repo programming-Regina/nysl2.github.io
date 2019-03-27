@@ -44,35 +44,29 @@ a {
 	text-decoration: none;
 }
 
-a:hover, .button:hover { 
-  background-color: Crimson;
-}
-
-.button {	
+.button, .but1 {	
 	font-size: 16px;
 	padding: 5px;
 	color: white;
 	background-color: DodgerBlue;
 	border: solid;
 	border-color: black;
-	box-shadow: 2px 2px 5px #000;	
+	box-shadow: 2px 2px 5px #000
+	border-radius: 6px;	
 }
 
-.but1 {
-	font-size: 16px;
-	padding: 5px;
-	color: white;
-	border: solid;
-	border-color: black;
-	box-shadow: 2px 2px 5px #000;
+.but1 {	
 	background-color: black;	
-	cursor: not-allowed;
+}
+
+a:hover, .button:hover { 
+ 	background-color: Crimson;
 }
 
 section {
 	width: 590px;
 	height: 500px;
-	background-color: white;
+	background-color: LightCyan;
 	right: 2%;
 	top: 15%;
 	border-style: solid;
