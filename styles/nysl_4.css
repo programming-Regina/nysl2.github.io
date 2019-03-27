@@ -33,8 +33,7 @@ h1 {
 	top: 1px;
 }
 
-nav {
-	
+nav {	
 	right: 20px;
 	top: 35px;
 }
@@ -44,7 +43,7 @@ a {
 	text-decoration: none;
 }
 
-.button, .but1 {	
+.button, #disabled {	
 	font-size: 16px;
 	padding: 5px;
 	color: white;
@@ -55,8 +54,9 @@ a {
 	border-radius: 6px;	
 }
 
-.but1 {	
-	background-color: black;	
+#disabled {	
+	background-color: black;
+	pointer-events : none;	
 }
 
 a:hover, .button:hover { 
@@ -192,15 +192,14 @@ label {
 	width: auto;
 }
 
-.feedback {
+.feedback, iframe {
 	border: black 1px solid;
 	border-collapse: collapse;
 	padding: 2px;
 }
 
 iframe {
-	border: black 1px solid;
-	border-collapse: collapse;
+	padding: 0px;
 	height: 150px; 
 	width: 300px;
 	float: middle;
@@ -217,6 +216,6 @@ iframe {
 }
 
 .just-text:hover {
-	background-color: white;
+	background-color: transparent;
 	color: Crimson;
 }
