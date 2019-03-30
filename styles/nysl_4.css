@@ -6,7 +6,35 @@ body {
 	font: 100% sans-serif;
 }
 
-.thick, .button, .but1, h1, a, #text-link, footer {
+#bg1 { /* imagen background portal */
+	background-image: url("../img/bg_portal.jpg");	
+}
+
+#bg2 { /* imagen background Home */
+	background-image: url("../img/bg_sections.jpg");	
+}
+
+#bg3 { /* imagen background About */
+	background-image: url("../img/bg_sections3.jpg");	
+}
+
+#bg4 { /* imagen background Schedule */
+	background-image: url("../img/bg_sections5.jpg");	
+}
+
+#bg5 { /* imagen background Rules */
+	background-image: url("../img/bg_sections6.jpg");	
+}
+
+#bg6 { /* imagen background Registration */
+	background-image: url("../img/bg_sections2.jpg");	
+}
+
+#bg7 { /* imagen background Contact */
+	background-image: url("../img/bg_sections4.jpg");	
+}
+
+.thick, .button, .but1, h1, a, .text-link, footer {
   	font: bold 100% sans-serif;
 }
 
@@ -97,11 +125,12 @@ p {
 	text-align: justify;
 }
 
-#text-link, footer {
+.text-link, footer {
 	color: white;
+	background-color: transparent;
 }
  
-#text-link:hover {
+.text-link:hover {
 	background-color: transparent;
 	color: Crimson;
 }
@@ -205,8 +234,7 @@ iframe {
 	border: black 1px solid;
 	border-collapse: collapse;
 	height: 150px; 
-	width: 300px;
-	float: middle;
+	width: 300px;	
 	box-shadow: 2px 2px 5px #000;
 }
 
@@ -220,6 +248,12 @@ iframe {
 }
 
 .just-text:hover {
-	background-color: white;
+	background-color: transparent;
 	color: Crimson;
+}
+
+#centro {
+	text-align: center;
+	margin: auto; 
+	display: block;
 }
